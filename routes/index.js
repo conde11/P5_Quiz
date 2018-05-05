@@ -1,3 +1,6 @@
+const express = require('express');
+const router = express.Router();
+
 const quizController = require('../controllers/quiz');
 
 /* GET home page. */
